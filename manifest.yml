@@ -1,0 +1,8 @@
+applications:
+ - name: springboot-database
+   path: target/Database_Sample-0.0.1-SNAPSHOT.jar
+   instances: 1
+   memory: 1G
+   random-route: true
+   services:
+    - mysql
